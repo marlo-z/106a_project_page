@@ -5,12 +5,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project Site</title>
+    <title>106A Project Page</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .centered-gif {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>EECS 106A Project</h1>
+        <h1>EECS 106A Project Page</h1>
         <nav>
             <ul>
                 <li><a href="#introduction">Introduction</a></li>
@@ -35,7 +43,12 @@
             <p>In this section, we describe the design methodology and the architectural structure of the project. Diagrams and detailed explanations are included for better understanding.</p>
 
             <!-- Adding an Image -->
-            <img src="./assets/design-diagram.png" alt="Design Diagram" class="responsive-image">
+            <!-- <img src="./assets/design-diagram.png" alt="Design Diagram" class="responsive-image"> -->
+
+            <!-- Adding a GIF -->
+            <img src="./assets/pipeline.gif" 
+                 alt="Pipeline" 
+                 class="centered-gif">
 
             <p>The diagram above illustrates the main components of the system and their interactions.</p>
         </section>
@@ -48,8 +61,8 @@
             <!-- Embed Youtube Video -->
             <h2>Demo Video</h2>
             <iframe 
-                width="560" 
-                height="315" 
+                width="720" 
+                height="405" 
                 src="https://www.youtube.com/embed/xbsQFsSd-qA" 
                 title="YouTube video player" 
                 frameborder="0" 
