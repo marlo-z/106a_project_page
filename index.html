@@ -7,14 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>106A Project Page</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .centered-gif {
-            display: block;
-            margin: 20px auto;
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -26,6 +18,8 @@
                 <li><a href="#implementation">Implementation</a></li>
                 <li><a href="#results">Results</a></li>
                 <li><a href="#conclusion">Conclusion</a></li>
+                <li><a href="#team">Conclusion</a></li>
+                <li><a href="#additional">Conclusion</a></li>
             </ul>
         </nav>
     </header>
@@ -34,16 +28,19 @@
         <!-- Introduction Section -->
         <section id="introduction">
             <h2>Introduction</h2>
-            <p>This project explores the design, implementation, and results of [your topic]. Here, we aim to provide insights and conclusions based on thorough research and testing.</p>
+            <p>This project explores the design, implementation, and results of [your topic]. Here is the description of our task.</p>
+
+            <!-- Adding an Image -->
+            <img src="assets/task.png" 
+                 alt="Task" 
+                 class="responsive-image">
+
         </section>
 
         <!-- Design Section -->
         <section id="design">
             <h2>Design</h2>
             <p>In this section, we describe the design methodology and the architectural structure of the project. Diagrams and detailed explanations are included for better understanding.</p>
-
-            <!-- Adding an Image -->
-            <!-- <img src="./assets/design-diagram.png" alt="Design Diagram" class="responsive-image"> -->
 
             <!-- Adding a GIF -->
             <img src="assets/pipeline.gif" 
@@ -56,10 +53,26 @@
         <!-- Implementation Section -->
         <section id="implementation">
             <h2>Implementation</h2>
-            <p>The implementation process involves [specific steps]. Below is a demonstration video:</p>
+            <p>The implementation process involves [specific steps]. </p>
 
+            <p>Implementation detail 1: [Add some description]</p>
+            <img src="assets/camera_range.png" 
+                 alt="Camera" 
+                 class="responsive-image">
+
+            <p>Implementation detail 2: [Add some description] </p>
+            <img src="assets/screw_motion.png" 
+                alt="Screw" 
+                class="responsive-image">
+        </section>
+
+        <!-- Results Section -->
+        <section id="results">
+            <h2>Results</h2>
+            <p>The results of our project are summarized below. Below is a demonstration video:</p>
+            
             <!-- Embed Youtube Video -->
-            <h2>Demo Video</h2>
+            <!-- <h2>Demo Video</h2> -->
             <iframe 
                 width="720" 
                 height="405" 
@@ -69,18 +82,48 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
             </iframe>
-        </section>
 
-        <!-- Results Section -->
-        <section id="results">
-            <h2>Results</h2>
-            <p>The results of our project are summarized below. We achieved [key achievements], which validate our design and implementation strategies.</p>
         </section>
 
         <!-- Conclusion Section -->
         <section id="conclusion">
             <h2>Conclusion</h2>
             <p>In conclusion, this project demonstrates [main takeaway]. Future work may include expanding the scope to address [potential improvements].</p>
+        </section>
+
+        <!-- Conclusion Section -->
+        <section id="team">
+            <h2>Our Team</h2>
+            <div class="team-container">
+        
+                <!-- Team Member 1 -->
+                <div class="team-member">
+                    <h3>John Doe</h3>
+                    <p class="bio">John is a data scientist with expertise in machine learning and statistical modeling.</p>
+                    <p class="contribution">Contributions: Built the predictive model and implemented data analysis pipelines.</p>
+                </div>
+        
+                <!-- Team Member 2 -->
+                <div class="team-member">
+                    <h3>Jane Smith</h3>
+                    <p class="bio">Jane is a frontend developer specializing in responsive and user-friendly UI design.</p>
+                    <p class="contribution">Contributions: Designed and developed the project's user interface and experience.</p>
+                </div>
+        
+                <!-- Team Member 3 -->
+                <div class="team-member">
+                    <h3>Sam Lee</h3>
+                    <p class="bio">Sam is a backend engineer with a strong focus on API development and database management.</p>
+                    <p class="contribution">Contributions: Developed the backend infrastructure and optimized the database.</p>
+                </div>
+        
+            </div>
+        </section>
+
+        <!-- Conclusion Section -->
+        <section id="additional">
+            <h2>Additional Materials</h2>
+            <p>Additional materials here.</p>
         </section>
     </main>
 

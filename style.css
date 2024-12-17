@@ -70,3 +70,23 @@ footer {
     color: #333;
     font-size: 0.9rem;
 }
+
+.responsive-image {
+    display: block;
+    max-width: 100%; /* Prevents the image from overflowing */
+    height: auto;    /* Maintains the aspect ratio */
+    margin: 10px auto; /* Optional: centers the image */
+    border: 1px solid #ddd; /* Optional: adds a light border */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow */
+}
+
+.centered-gif {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Optional: adds a light border */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow */
+}
